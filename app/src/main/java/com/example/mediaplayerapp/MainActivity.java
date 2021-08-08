@@ -20,7 +20,7 @@ private MediaPlayer mp;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // MediaPlayer using local source
+        // MediaPlayer using local source,plays an audio with path set
 
         //mp = MediaPlayer.create(this,R.raw.rudrashtakam);
         play = findViewById(R.id.play);
